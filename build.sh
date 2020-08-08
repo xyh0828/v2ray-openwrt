@@ -6,7 +6,7 @@ TMP=$BASE/tmp
 
 CODENAME="user"
 BUILDNAME=$NOW
-UPX=$BASE/upx
+UPX=$BASE/
 
 cleanup () { rm -rf $TMP; }
 trap cleanup INT TERM ERR
